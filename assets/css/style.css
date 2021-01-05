@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(80, 79, 79);
+    color: darkorange;
+}
+
+header {
+    background: black ;
+}
+
+header h1 {
+    display: inline;
+}
+
+header h1 a {
+    text-decoration: none;
+    font-size: 36px;
+    color: darkorange;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: darkorange;
+}
