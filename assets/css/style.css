@@ -25,6 +25,7 @@ header h1 a {
 
 header nav {
     float: right;
+    padding-top: 20px;
 }
 
 header nav ul li {
@@ -35,4 +36,5 @@ header nav ul li a {
     text-decoration: none;
     font-size: 18px;
     color: darkorange;
+    padding: 10px;
 }
