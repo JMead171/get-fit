@@ -11,10 +11,12 @@ body {
 
 header {
     background: black ;
+    height: 100px;
 }
 
 header h1 {
     display: inline;
+    padding-top: 150px;
 }
 
 header h1 a {
@@ -25,7 +27,7 @@ header h1 a {
 
 header nav {
     float: right;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 header nav ul li {
@@ -37,4 +39,36 @@ header nav ul li a {
     font-size: 18px;
     color: darkorange;
     padding: 10px;
+}
+
+#about-us {
+    padding-bottom: 20px;
+}
+
+#philosophy {
+    padding-bottom: 20px;
+}
+
+#five-steps {
+    padding-bottom: 20px;
+}
+
+#contact {
+    padding-bottom: 20px;
+}
+
+#about-us p {
+    color: black
+}
+
+#philosophy p {
+    color: black;
+}
+
+#five-steps p {
+    color: black;
+}
+
+#contact p {
+    color: black;
 }
