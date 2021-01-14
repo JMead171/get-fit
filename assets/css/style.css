@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
 body {
@@ -10,17 +11,12 @@ body {
 }
 
 header {
-    background: black ;
+    background-color: black;
     height: 100px;
 }
 
 header h1 {
     display: inline;
-    padding-top: 150px;
-}
-
-header h1 a {
-    text-decoration: none;
     font-size: 36px;
     color: darkorange;
 }
@@ -41,8 +37,21 @@ header nav ul li a {
     padding: 10px;
 }
 
-#about-us {
-    padding-bottom: 20px;
+section {
+    padding: 20px 10px;
+}
+
+p {
+    padding: 20px 10px;
+}
+
+#about-us img{
+    height: 200px;
+    padding: 30px 30px;
+}
+
+.images {
+    text-align: center;
 }
 
 #philosophy {
