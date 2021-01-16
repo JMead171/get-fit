@@ -1,5 +1,5 @@
 # My Project
-Fitness Company Website
+Fitness Website Template
   
 
 ## Badge
@@ -7,9 +7,9 @@ N/A
 
 
 ## Description
-This project is website for a Fitness company.
+This project is a template for a fitness website.
 
-- The website shows there servicesUsers are directly brought to a products page.
+- The website displays marketing ideas to a potential client on how a website could look.
 
 
   
@@ -42,7 +42,7 @@ HTML5 and CSS.
 
 
 ## Screen Shot
-
+![image](https://user-images.githubusercontent.com/64744763/104819299-8c2afc80-57fa-11eb-8745-e874c392d3b0.png)
 
   
 ## Questions

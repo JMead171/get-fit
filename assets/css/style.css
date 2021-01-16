@@ -4,21 +4,28 @@
     box-sizing: border-box;
   }
 
+:root {
+    --primary: darkorange;
+    --secondary: black;
+    --tertiary: rgb(80, 79, 79);
+}
+
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: rgb(80, 79, 79);
-    color: darkorange;
+    background: var(--tertiary);
+    color: var(--primary);
 }
 
 header {
-    background-color: black;
+    background-color:var(--secondary);
     height: 100px;
 }
 
 header h1 {
     display: inline;
     font-size: 36px;
-    color: darkorange;
+    color: var(--primary);
 }
 
 header nav {
@@ -33,8 +40,27 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     font-size: 18px;
-    color: darkorange;
+    color: var(--primary);
     padding: 10px;
+}
+
+header span{
+    animation: blink 1s steps(1,end) infinite;
+    }
+
+    @keyframes blink {
+        0% {
+            color: var(--primary);
+            background-color: var(--secondary);
+        }
+        50% {
+            color: var(--secondary);
+            background-color: var(--primary);
+        }
+        100% {
+            color: var(--primary);
+            background-color: var(--secondary);
+        }
 }
 
 section {
@@ -67,11 +93,11 @@ p {
 }
 
 #about-us p {
-    color: black
+    color: var(--secondary)
 }
 
 #philosophy p {
-    color: black;
+    color: var(--secondary);
 }
 
 #philosophy img {
@@ -86,7 +112,7 @@ p {
 }
 
 #five-steps p {
-    color: black;
+    color: var(--secondary);
 }
 #five-steps ol {
     margin: 30px;
@@ -97,12 +123,22 @@ p {
     padding: 10px;
 }
 
-#contact p {
-    color: black;
+#contact h4 {
+    color: var(--secondary);
+}
+
+address {
+    color: var(--secondary);
+    padding: 20px 0 0 50px;
+}
+
+address a {
+    text-decoration: none;
+    color: var(--primary);
 }
 
 footer {
-    background-color: black;
+    background-color: var(--secondary);
     text-align: center;
     width: 100%;
     padding: 30px 35px;
